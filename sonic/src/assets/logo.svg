@@ -1,0 +1,43 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 200 200"
+  width="200"
+  height="200"
+>
+  <!-- Circular Background -->
+  <circle cx="100" cy="100" r="100" fill="#4CAF50" />
+
+  <!-- Bot Head -->
+  <circle cx="100" cy="80" r="50" fill="#ffffff" />
+  <rect x="60" y="120" width="80" height="40" rx="20" fill="#ffffff" />
+
+  <!-- Eyes -->
+  <circle cx="80" cy="75" r="8" fill="#000000" />
+  <circle cx="120" cy="75" r="8" fill="#000000" />
+
+  <!-- Antennas -->
+  <line x1="90" y1="30" x2="100" y2="50" stroke="#ffffff" stroke-width="5" />
+  <line x1="110" y1="30" x2="100" y2="50" stroke="#ffffff" stroke-width="5" />
+  <circle cx="90" cy="30" r="5" fill="#ffffff" />
+  <circle cx="110" cy="30" r="5" fill="#ffffff" />
+
+  <!-- Smile -->
+  <path
+    d="M80,90 Q100,110 120,90"
+    fill="none"
+    stroke="#000000"
+    stroke-width="4"
+  />
+
+  <!-- Text -->
+  <text
+    x="50%"
+    y="185"
+    font-family="Arial, sans-serif"
+    font-size="20"
+    text-anchor="middle"
+    fill="#ffffff"
+  >
+    SONIC
+  </text>
+</svg>
